@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="69dp"
+        android:ems="10"
+        android:hint="Enter Mobile" />
+
+    <EditText
+        android:id="@+id/edpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edmobile"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnloginid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edpassword"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="19dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnregid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="Create New Account" />
+
+    <Button
+        android:id="@+id/btnfrgtpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnregid"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="Forget Password" />
+
+</RelativeLayout>

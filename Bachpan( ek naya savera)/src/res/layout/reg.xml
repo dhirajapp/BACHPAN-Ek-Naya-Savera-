@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnsignupid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="59dp"
+        android:layout_toRightOf="@+id/GetOTP"
+        android:text="Signup" />
+
+
+    <Button
+        android:id="@+id/GetOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnsignupid"
+        android:layout_alignBottom="@+id/btnsignupid"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:text="Get OTP" />
+
+    <EditText
+        android:id="@+id/ednameid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Enter Name" >
+        
+        <requestFocus />
+        </EditText>
+       
+
+    <EditText
+        android:id="@+id/edmobileid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ednameid"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Enter Mobile" />
+
+
+
+    <EditText
+        android:id="@+id/EtRid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edmobileid"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Enter Email" />
+
+    <EditText
+        android:id="@+id/edcpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edpasswordid"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edpasswordid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/EtRid"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edcpw"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="number" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/faq" />
+
+    <TextView
+        android:id="@+id/ednid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize= "12sp"
+        android:text="Q1. What is an NGO?
+Ans : Non-governmental organizations, nongovernmental organizations, or nongovernment organizations, commonly referred to as NGOs, are international organizations and generally nonprofit organizations independent of specific
+governments.
+
+Q2. Is NGO a business organization?
+Ans: .An NGO is a non government organisation and is not a conventional profit business. Whereas an NPO or a non profit organisation as you may say: is an
+organisation that uses surplus revenue to achieve its goals rather than distributing them as profit or dividends.
+
+Q3.What is the NGO “society effect”;?
+Ans: NGO activities include, but are not limited to, environmental, social, advocacy and human rights work. They can work to promote social or political
+change on a broad scale or very locally.
+
+Q4.Where do you mean by child labour?
+Ans: The term “child labour” is often defined as work that deprives children of their childhood, their potential and their dignity, and that is harmful to physical
+and mental development. It refers to work that: is mentally, physically, socially or morally dangerous and harmful to children."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+</LinearLayout>

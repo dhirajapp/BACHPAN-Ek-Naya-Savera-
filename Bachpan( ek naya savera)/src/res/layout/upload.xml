@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launch" />
+
+    <EditText
+        android:id="@+id/locid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EtRid"
+        android:layout_below="@+id/EtRid"
+        android:ems="10"
+        android:hint="Location" />
+
+    <EditText
+        android:id="@+id/EtRid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Caption e.g. Fight" />
+
+    <EditText
+        android:id="@+id/notime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/locid"
+        android:ems="10"
+        android:hint="No. of Times you Saw!" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/ngoneed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/locid"
+        android:layout_alignBottom="@+id/locid"
+        android:layout_marginLeft="19dp"
+        android:layout_toRightOf="@+id/locid"
+        android:text="Auto" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="click to upload" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/progressBar1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:text="Report it!" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notime"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

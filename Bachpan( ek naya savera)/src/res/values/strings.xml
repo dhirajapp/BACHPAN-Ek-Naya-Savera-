@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BACHPAN</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_forget_pw">BACHPAN</string>
+    <string name="title_activity_forgetpw">BACHPAN</string>
+    <string name="title_activity_web_view">BACHPAN</string>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="title_activity_pay_upayment">PayUPayment</string>
+
+</resources>

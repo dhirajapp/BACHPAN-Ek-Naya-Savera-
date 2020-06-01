@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backs"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ednid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app is an initiative of Team Savera,who has participated in the Accenture innovation challenge
+2017.This app will help to bring transparency in the cases of child labor. This app is a modern tool to eliminate child labor.
+We have collaboration with the NGOs listed in our application. The identity of the child and user both are hidden to the public.
+\n
+For more query/suggestion feel free to write at:
+\n
+writetoatulkumar@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
